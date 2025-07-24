@@ -3,28 +3,28 @@
 	"id": "re-fine",
 	"version": "${version}",
 	"name": "Re-Fine",
-	"description": "A modern and up to date Vulkan based alternative to OptiFine, designed to have 99% OptiFine compatibility, apart form shaders.",
+	"description": "Re-Fine is a modern OptiFine alternative based on the vulkan rendering API (not implemented yet ;D)",
 	"authors": [
 		"NinesidedYT/Ninesideddevelopment"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/Ninesideddevelopment/Re-Fine/tree/main"
+		"homepage": "https://modrinth.com/organization/re-fine",
+		"sources": "https://github.com/Ninesideddevelopment/Re-Fine"
 	},
-	"license": "Apache 2.0",
+	"license": "CC0-1.0",
 	"icon": "assets/re-fine/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.ninesidedyt.re_fine.ReFine"
+			"com.ninesidedyt.re_fine.server.ReFine"
 		],
 		"client": [
-			"com.ninesidedyt.re_fine.ReFineClient"
+			"com.ninesidedyt.re_fine.client.ReFineClient"
 		]
 	},
 	"mixins": [
 		"re-fine.mixins.json",
-		"re-fine.client.mixins.json"
+		"re-fine-client.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.14",

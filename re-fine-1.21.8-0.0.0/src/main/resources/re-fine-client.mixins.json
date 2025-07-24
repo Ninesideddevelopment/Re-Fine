@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "com.ninesidedyt.re_fine.server.mixin",
+	"package": "com.ninesidedyt.re_fine.client.mixin",
 	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"ExampleMixin"
+	"client": [
+		"ExampleClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

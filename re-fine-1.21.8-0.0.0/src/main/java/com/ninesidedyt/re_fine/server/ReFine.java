@@ -1,12 +1,13 @@
-package com.ninesidedyt.re_fine;
+package com.ninesidedyt.re_fine.server;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class ReFine implements ModInitializer {
-	public static final String MOD_ID = "re_fine";
+	public static final String MOD_ID = "re-fine";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
@@ -20,5 +21,9 @@ public class ReFine implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+
+		ClientPlayConnectionEvents.JOIN.register((handler, sender, client) -> {
+			LOGGER.info("Player has joined the world!");
+		});
 	}
 }

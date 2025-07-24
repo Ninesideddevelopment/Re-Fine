@@ -1,4 +1,4 @@
-package com.ninesidedyt.re_fine.mixin;
+package com.ninesidedyt.re_fine.server.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

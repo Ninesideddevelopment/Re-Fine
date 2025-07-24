@@ -5,7 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0245788e-cbcf-4dce-9a55-0951284ccbc3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/re-fine-1.21.8-0.0.0/src/main/java/com/ninesidedyt/re_fine/client/ModulesManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/re-fine-1.21.8-0.0.0/src/main/java/com/ninesidedyt/re_fine/client/mixin/ExampleClientMixin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/re-fine-1.21.8-0.0.0/src/main/java/com/ninesidedyt/re_fine/clientAPI/APItest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/re-fine-1.21.8-0.0.0/src/main/java/com/ninesidedyt/re_fine/clientAPI/CameraBridgeAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/re-fine-1.21.8-0.0.0.client.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-fine-1.21.8-0.0.0/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-fine-1.21.8-0.0.0/.github/workflows/build.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-fine-1.21.8-0.0.0/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-fine-1.21.8-0.0.0/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-fine-1.21.8-0.0.0/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-fine-1.21.8-0.0.0/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-fine-1.21.8-0.0.0/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-fine-1.21.8-0.0.0/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-fine-1.21.8-0.0.0/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-fine-1.21.8-0.0.0/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-fine-1.21.8-0.0.0/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-fine-1.21.8-0.0.0/src/client/java/com/ninesidedyt/re_fine/ReFineClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/re-fine-1.21.8-0.0.0/src/main/java/com/ninesidedyt/re_fine/client/ReFineClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-fine-1.21.8-0.0.0/src/client/java/com/ninesidedyt/re_fine/mixin/client/ExampleClientMixin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-fine-1.21.8-0.0.0/src/client/resources/re-fine.client.mixins.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-fine-1.21.8-0.0.0/src/main/java/com/ninesidedyt/re_fine/ReFine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-fine-1.21.8-0.0.0/src/main/java/com/ninesidedyt/re_fine/mixin/ExampleMixin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-fine-1.21.8-0.0.0/src/main/resources/assets/re-fine/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-fine-1.21.8-0.0.0/src/main/resources/fabric.mod.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/re-fine-1.21.8-0.0.0/src/main/resources/re-fine.mixins.json" beforeDir="false" afterPath="$PROJECT_DIR$/re-fine-1.21.8-0.0.0/src/main/resources/re-fine-client.mixins.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +47,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/re-fine-1.21.8-0.0.0">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -34,37 +64,77 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Ninesideddevelopment"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ninesideddevelopment&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Ninesideddevelopment/Re-Fine.git",
-    "accountId": "8c83b042-d7a6-4278-b63b-e497291cf0a3"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Ninesideddevelopment/Re-Fine.git&quot;,
+    &quot;accountId&quot;: &quot;8c83b042-d7a6-4278-b63b-e497291cf0a3&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="30EsfkcSSOaRudeK5Y4l5zyf6wA" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.re-fine.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Henry Watts/UserDocuments/Programming/GitHub/Re-Fine/re-fine-1.21.8-0.0.0/.gradle/loom-cache/minecraftMaven/net/minecraft/minecraft-clientOnly-077c1ca8a6/1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2/minecraft-clientOnly-077c1ca8a6-1.21.8-net.fabricmc.yarn.1_21_8.1.21.8+build.1-v2-sources.jar"
+    "last_opened_file_path": "C:/Users/Henry Watts/UserDocuments/Programming/GitHub/Re-Fine/re-fine-1.21.8-0.0.0/run/refine_modules"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Henry Watts\UserDocuments\Programming\GitHub\Re-Fine\re-fine-1.21.8-0.0.0\run\refine_modules" />
+      <recent name="C:\Users\Henry Watts\UserDocuments\Programming\GitHub\Re-Fine\re-fine-1.21.8-0.0.0\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="re-fine" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/re-fine-1.21.8-0.0.0" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

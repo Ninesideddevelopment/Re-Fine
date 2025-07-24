@@ -18,26 +18,6 @@ repositories {
 	// for more information about repositories.
 }
 
-loom {
-	splitEnvironmentSourceSets()
-
-	mods {
-		"re-fine" {
-			sourceSet sourceSets.main
-			sourceSet sourceSets.client
-		}
-	}
-
-	runs {
-		client {
-			client()
-			name = "Minecraft Client"
-			source sourceSets.main
-		}
-	}
-
-}
-
 dependencies {
 	// To change the versions see the gradle.properties file
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
